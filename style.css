@@ -43,6 +43,13 @@ nav ul{
     padding:18px 35px;
     border-radius: 5px;
     border:none;
+    cursor:pointer;
+        
+    }
+.btn-primary:hover{
+    background-color: white;
+    color:black;
+    border: 5px black solid;
 }
 /*banner*/
 .banner-head{
@@ -72,6 +79,7 @@ nav ul{
     background-image: url(portfolio-resources/images/developer.png), url(portfolio-resources/images/header_bg.png);
     background-repeat: no-repeat;
     background-position:top left, bottom right;
+
     
 }
 .about{
@@ -134,8 +142,15 @@ border-radius: 5px;
     border:none;
     margin-left:500px;
 }
-.footer-icon{
-
+.btn-resume:hover{
+    background-color: white;
+    color:black;
+    border: 5px black solid;
+    position:static ;
+}
+.footer-icon i{
+padding: 20px 20px;
+text-decoration: none;
 
 }
 
