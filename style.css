@@ -111,3 +111,55 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 border-radius: 5px;
 
 }
+.resume{
+    display: flex;
+    justify-content: space-around;
+}
+.resume-column{
+    margin-top:50px;
+    margin-left:71px;
+}
+.resume-main-title{
+   justify-content: center;
+   align-items: center;
+   margin-left:450px;
+   margin-top: 100px;
+}
+.btn-resume{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding:18px 35px;
+    border-radius: 5px;
+    border:none;
+    margin-left:500px;
+}
+.footer-icon{
+
+
+}
+
+.footer{
+    background-color: #FFF8F3;
+    box-shadow: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 315px;
+    margin-right: 315px;
+    margin-top: 100px;
+}
+.footer-form{
+    display: block;
+}
+footer input [type= "text"] {
+    width:200px;
+}
+.footer-gap{
+    height:50px;
+    width:400px;
+    margin-bottom: 20px;
+   box-shadow: white;
+}
